@@ -97,7 +97,6 @@ router.put('/movies/:id/:attribute/:content',(req,res)=>{
             res.send(err)
         else{
             res.json(movie)
-
         }
     })
 })

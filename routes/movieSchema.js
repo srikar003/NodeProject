@@ -9,14 +9,10 @@ const movieSchema=mongoose.Schema({
     movie_description:String,
     movie_year:{
         type:Number,
-        minimum:1800,
-        maximum:2017,
         required:true
     },
     movie_rating:{
         type:Number,
-        exclusiveMinimum:0,
-        exclusiveMaximum:10,
         required:true
     },
     movie_actors:{
